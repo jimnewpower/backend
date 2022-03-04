@@ -1,5 +1,16 @@
 {
     "name": "simple-project",
     "version": "1.0.0",
-    "author": "Jim Newpower"
+    "author": "Jim Newpower",
+    "dependencies": {
+        "@mapbox/mapbox-sdk": "^0.13.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.14.0"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    },
+    "scripts": {
+        "test": "jest"
+    }
 }
