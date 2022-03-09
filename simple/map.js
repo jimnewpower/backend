@@ -1,6 +1,6 @@
-//require('dotenv').config();
+require('dotenv').config();
+mapboxgl.accessToken = process.env.MAPBOX_API_KEY;
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiamltbmV3cG93ZXIiLCJhIjoiY2t6b2V2ZzlnMDAyazJucGFwdDNybzNueSJ9.AlhSnCrvS_VJ1C_Xtbbmeg';
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mapbox-map-design/ckhqrf2tz0dt119ny6azh975y',
